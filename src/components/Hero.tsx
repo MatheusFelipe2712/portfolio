@@ -1,4 +1,3 @@
-import { Github, Linkedin, Download } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import profileImg from '../assets/Portifolio/Image-portifolio.png';
 import { BackgroundParticles } from './BackgroundParticles';
@@ -11,7 +10,7 @@ export const Hero = () => {
   useEffect(() => {
     const fullPrefix = 'Web Developer ';
     const fullSuffix = 'Full-Stack';
-    let timeout: Timer;
+    let timeout: ReturnType<typeof setTimeout>;
 
     const tick = () => {
       if (!isDeleting) {
