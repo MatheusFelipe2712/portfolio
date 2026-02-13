@@ -80,12 +80,11 @@ export const Hero = () => {
 
       <div className="flex-1 relative mt-12 lg:mt-0 w-full max-w-sm lg:max-w-none flex justify-center lg:justify-end">
         <div className="relative group">
-          <div className="absolute -inset-1 bg-gradient-to-r from-brand to-accent rounded-full blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
-          <div className="relative w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden border-2 border-brand/20 bg-[#0a0a0a]">
+          <div className="relative w-64 md:w-96 overflow-hidden bg-[#0a0a0a] rounded-xl">
             <img 
               src={profileImg} 
               alt="Matheus Felipe" 
-              className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+              className="w-full h-auto object-contain transition-all duration-700"
             />
           </div>
         </div>
