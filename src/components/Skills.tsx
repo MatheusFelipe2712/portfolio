@@ -1,5 +1,5 @@
 import { Code2, Server, Wrench } from 'lucide-react'
-import profileImg from '../assets/Portifolio/Image-portifolio.png';
+import profileImg from '../assets/Portifolio/image-portifolio.png';
 import { BackgroundParticles } from './BackgroundParticles';
 
 const getIconUrl = (name: string) => {

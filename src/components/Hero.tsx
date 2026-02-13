@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import profileImg from '../assets/Portifolio/Image-portifolio.png';
+import profileImg from '../assets/Portifolio/image-portifolio.png';
 import { BackgroundParticles } from './BackgroundParticles';
 
 export const Hero = () => {
