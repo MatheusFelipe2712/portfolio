@@ -46,7 +46,7 @@ export const Hero = () => {
   }, [typedPrefix, typedSuffix, isDeleting]);
 
   return (
-    <section className="min-h-screen relative flex flex-col lg:flex-row items-center justify-center lg:justify-between px-6 md:px-24 pt-32 pb-12 lg:pt-20 overflow-hidden bg-[#0a0a0a]">
+    <section className="min-h-screen relative flex flex-col lg:flex-row items-center justify-center lg:justify-between px-6 md:px-24 pt-24 md:pt-32 pb-12 lg:pt-20 overflow-hidden bg-[#0a0a0a]">
       <BackgroundParticles />
       <div className="flex-1 max-w-2xl z-10 text-center lg:text-left">
         <h3 className="text-lg md:text-xl font-medium text-gray-300 mb-2">Hello, I'm</h3>
