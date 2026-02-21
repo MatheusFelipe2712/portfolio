@@ -50,14 +50,11 @@ const frontEnd = [
   { name: 'Next.js' },
   { name: 'Tailwind CSS' },
   { name: 'Shadcn UI' },
-  { name: 'Styled Components' },
 ]
 
 const backEnd = [
-  { name: 'Python' },
   { name: 'Node.js' },
   { name: 'Express' },
-  { name: 'Flask' },
   { name: 'Bun' },
   { name: 'Swagger' },
   { name: 'APIs REST' },
@@ -70,11 +67,8 @@ const backEnd = [
 
 const others = [
   { name: 'Git' },
-  { name: 'GitHub Actions' },
   { name: 'CI/CD' },
   { name: 'Docker' },
-  { name: 'AWS S3' },
-  { name: 'PWA' },
   { name: 'Scrum' },
   { name: 'Kanban' },
   { name: 'Clean Code' },

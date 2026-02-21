@@ -1,7 +1,7 @@
 import { BackgroundParticles } from './BackgroundParticles'
 import projectImg from '../assets/Portifolio/smartBussines.png'
 
-const techs = ['React', 'Next.js', 'TypeScript', 'Node.js', 'PostgreSQL', 'Redis']
+const techs = ['Vite', 'React', 'Tailwind CSS', 'Shadcn UI']
 
 export default function Projects() {
   return (
@@ -22,9 +22,8 @@ export default function Projects() {
           rel="noopener noreferrer"
           className="group block"
         >
-          <div className="relative rounded-2xl border border-brand/20 bg-white/5 p-3 shadow-[0_0_40px_rgba(71,1,178,0.15)] overflow-hidden">
-            <img src={projectImg} alt="SmartBusiness preview" className="aspect-video w-full h-auto rounded-xl object-cover" />
-            <div className="absolute -inset-0.5 rounded-2xl bg-gradient-to-r from-brand to-accent blur opacity-20 group-hover:opacity-40 transition-opacity pointer-events-none" />
+          <div className="relative rounded-2xl overflow-hidden">
+            <img src={projectImg} alt="SmartBusiness preview" className="w-full h-auto object-contain rounded-2xl" loading="lazy" />
           </div>
         </a>
 
